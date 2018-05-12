@@ -1,0 +1,19 @@
+.customSideNav {
+    height: 100%;
+}
+
+.customSideNav a {
+    background-color: #FF9800;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+header {
+    background-color: #FFC400;
+}
+
+.customSideNav {
+    background-color: #FF9800;
+}
