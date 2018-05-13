@@ -1,50 +1,38 @@
-<header>
-    <div align=center>
-        <form class="searchForm">
-            <button mat-button (click)="sidenav.toggle()">
-              <i class="material-icons" >menu</i>
-            </button>
-            <label>Google Keep</label>
-            <mat-form-field>
-                <input matInput type="text" placeholder="search" name="search">
-            </mat-form-field>
-            <button mat-raised-button color="primary">Search</button>
-        </form>
-    </div>
-</header>
+<mat-toolbar class="headerContent">
+    <mat-toolbar-row>
+        <button mat-button (click)="sidenav.toggle()">
+      <i class="material-icons">menu</i>
+    </button>
+        <label>Google Keep</label>
+        <mat-form-field>
+            <input matInput type="text" name="search">
+        </mat-form-field>
+        <span class="headerSpace"></span>
+        <a href="#">
+            <i class="material-icons">power_settings_new</i>
+        </a>
+    </mat-toolbar-row>
+</mat-toolbar>
 
 <div class="customSideNav">
     <mat-sidenav-container>
         <mat-sidenav #sidenav class="customSideNav" mode="side" [(opened)]="opened" (opened)="events.push('open!')" (closed)="events.push('close!')">
-            <a href="#">One</a>
-            <a href="#">Two</a>
-            <a href="#">Three</a>
-            <a href="#">Four</a>
+            <a href="#">
+                <button mat-button>Contacts</button>
+            </a>
+            <a href="#">
+                <button mat-button>Notes</button>
+            </a>
+            <a href="#">
+                <button mat-button>Music</button>
+            </a>
+
         </mat-sidenav>
 
         <mat-sidenav-content class="mainContent">
-
-            <p class="cardsGrid">
-                <mat-grid-list cols="2" rowHeight="100px">
-                    <mat-grid-tile [colspan]="2" [rowspan]="2" [style.background]="black">
-
-                        <mat-card *ngFor="let card of cards">
-                            <mat-card-header>
-                                <mat-card-title>{{card}}</mat-card-title>
-                                <mat-card-subtitle>Praveen Gudivaka</mat-card-subtitle>
-                            </mat-card-header>
-
-                        </mat-card>
-
-                    </mat-grid-tile>
-
-                </mat-grid-list>
-            </p>
-
-
+            <app-contact-dashboard></app-contact-dashboard>
         </mat-sidenav-content>
+
     </mat-sidenav-container>
-
-
 
 </div>

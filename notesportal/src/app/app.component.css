@@ -6,14 +6,28 @@
     background-color: #FF9800;
     color: black;
     display: block;
-    padding: 12px;
     text-decoration: none;
 }
 
-header {
+.headerContent {
     background-color: #FFC400;
+    display: flex;
+    flex-direction: row;
 }
 
 .customSideNav {
     background-color: #FF9800;
+    height: 100%;
+}
+
+.headerSpace {
+    flex: 1 1 auto;
+}
+
+.cardsGrid {
+    display: flex;
+}
+
+.cardsStyles {
+    display: inline;
 }

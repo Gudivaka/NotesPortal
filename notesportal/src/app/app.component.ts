@@ -7,6 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   events: string[] = [];
-  opened: boolean;
-  cards  = ['Card1', 'Card2', 'Card3', 'Card4', 'Card5'];
+  opened: boolean;  
 }

@@ -9,28 +9,23 @@ import { AppComponent } from './app.component';
 
 // Importing Custom Components
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatFormFieldModule, MatInputModule, MatButtonModule, MatCheckboxModule, MatToolbarModule,
-  MatCardModule, MatTableModule, MatSidenavModule, MatGridListModule } from '@angular/material';
+import { MaterialModule  } from "./material.module";
+
+import 'hammerjs';
+import { ContactDashboardComponent } from './components/contact-dashboard/contact-dashboard.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContactDashboardComponent
   ],
   imports: [
     BrowserModule,    
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatButtonModule,
-    MatCheckboxModule,
-    MatToolbarModule,
-    MatCardModule,
-    MatTableModule,
-    MatSidenavModule,
-    MatGridListModule
+    MaterialModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
