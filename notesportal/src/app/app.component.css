@@ -1,33 +1,21 @@
-.customSideNav {
-    height: 100%;
+mat-list-item:hover {
+    background-color: #E0E0E0;
+    z-index: 5;
+    cursor: pointer;
 }
 
-.customSideNav a {
-    background-color: #FF9800;
-    color: black;
-    display: block;
-    text-decoration: none;
+mat-list-item {
+    text-align: center;
 }
 
 .headerContent {
     background-color: #FFC400;
-    display: flex;
-    flex-direction: row;
-}
-
-.customSideNav {
-    background-color: #FF9800;
-    height: 100%;
 }
 
 .headerSpace {
     flex: 1 1 auto;
 }
 
-.cardsGrid {
-    display: flex;
-}
-
-.cardsStyles {
-    display: inline;
+mat-sidenav {
+    background-color: #4DB6AC;
 }

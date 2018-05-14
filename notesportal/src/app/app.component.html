@@ -17,15 +17,12 @@
 <div class="customSideNav">
     <mat-sidenav-container>
         <mat-sidenav #sidenav class="customSideNav" mode="side" [(opened)]="opened" (opened)="events.push('open!')" (closed)="events.push('close!')">
-            <a href="#">
-                <button mat-button>Contacts</button>
-            </a>
-            <a href="#">
-                <button mat-button>Notes</button>
-            </a>
-            <a href="#">
-                <button mat-button>Music</button>
-            </a>
+            <mat-list>
+                <mat-list-item>Contacts</mat-list-item>
+                <mat-list-item>Notes</mat-list-item>
+                <mat-list-item>Music</mat-list-item>
+                <mat-list-item>Contact US</mat-list-item>
+            </mat-list>
 
         </mat-sidenav>
 

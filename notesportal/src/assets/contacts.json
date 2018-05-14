@@ -1,30 +1,51 @@
 [{
         "firstname": "Praveen",
-        "lastname": "Gudivaka"
+        "lastname": "Gudivaka",
+        "email": "praveen.gudivaka@gmail.com",
+        "mobile": "08008287432"
+
     },
     {
         "firstname": "Divya",
-        "lastname": "PV"
+        "lastname": "PV",
+        "email": "divyapv@gmail.com",
+        "mobile": "08547374493"
+
     },
     {
         "firstname": "Sai",
-        "lastname": "Krishna"
+        "lastname": "Krishna",
+        "email": "saikrishna@gmail.com",
+        "mobile": "09014802201"
+
     },
     {
         "firstname": "Manikanta",
-        "lastname": "Ch"
+        "lastname": "Ch",
+        "email": "saimanikanta@gmail.com",
+        "mobile": "09985933042"
+
     },
     {
         "firstname": "Kittu",
-        "lastname": "Darbha"
+        "lastname": "Darbha",
+        "email": "darbhakittu@gmail.com",
+        "mobile": "09014225760"
+
     },
     {
         "firstname": "Johnny",
-        "lastname": "Konjarala"
+        "lastname": "Konjarala",
+        "email": "johnny.konjarla@gmail.com",
+        "mobile": "09949836662"
+
     },
     {
         "firstname": "Prince",
-        "lastname": "Noel"
+        "lastname": "Noel",
+        "email": "princeallennoel@gmail.com",
+        "mobile": "08838266698"
+
     }
 
 ]
